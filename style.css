@@ -11,16 +11,45 @@ body{
     background-position: top;
     display: flex;
     flex-direction: column;
+    font-family: 'Karla', sans-serif;
 }
 
 header{
     background-color: #00000090;
     height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw; /*0 vale para cima e para baixo e o 10vw vale para direita e esquerda*/
 }
+
+.logo img{
+    width: 150px;
+}
+
+.links ul{
+    display: flex;
+    gap: 20px; 
+    list-style-type: none; /* Tirar as bolinhas dos tópicos */
+}
+
+.links a{
+    text-decoration: none; /* Tira o sublinhado e os efeitos de mudar a cor depois de clicar */
+    color: white;
+    font-size: 20px;
+    user-select: none; /* Fazer com que o usuário não consiga selecionar os links */
+    transition: all .5s;
+}
+
+.links a:hover{
+    color: #D81F26
+}
+
 main{
    /* background-color: tomato;*/
     flex-grow: 6;
 }
+
 footer{
     /*background-color: teal;*/
     height: 50px;
