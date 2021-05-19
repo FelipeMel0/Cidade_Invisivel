@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("img/cidade-invisivel.jpg");
+    background-image: url("img/Curupira.jpg");
     background-color: #00000050;
     background-blend-mode: darken;
     background-size: cover; 
@@ -24,6 +24,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 5vw; /*0 vale para cima e para baixo e o 10vw vale para direita e esquerda*/
+}
+
+.descricao{
+    font-style: italic;
 }
 
 .logo img{
@@ -54,60 +58,79 @@ main{
     
 }
 
-main h2{
-    font-size: 30px;
+.lenda{
+    transform: rotate(270deg);
+    color: #D81F26;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5 30vw;
 }
 
 main h1{
-    font-size: 60px;
+    font-size: 90px;
+    font-family: Helvetica;
+    color: #00000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin-bottom: 20px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    margin-bottom: 25px;
 }
 
 main p{
     font-size: 20px;
     font-weight: 200;
-    max-width: 700px;
+    max-width: 500px;
 }
 
-main a{
+.informacoes{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    width: 200px;
-    height: 50px;
-    background-color: #D81F26;
-    margin-top: 30px;
-    border-radius: 3px;
-    user-select: none;
-    transition: all .5s;
+    flex-direction: row;
 }
-main a:hover{
-    border: solid 1px #D81F26;
-    background-color: black;
+
+.sobreAtor{
+    display: flex;
+    flex-direction: column;
+    border-right: solid 3px #D81F26;
+    margin-right: 35px;
+    width: 150px;
+    font-style: italic;
+}
+
+.ator{
+    font-size: 15px;
+}
+.sobrePersonagem{
+    display: flex;
+    flex-direction: column;
+    border-right: solid 3px #D81F26;
+    margin-right: 35px;
+    width: 120px;
+    font-style: italic;
+}
+
+.personagem{
+    font-size: 15px;
+}
+
+.sobreEntidade{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.entidade{
+    font-size: 15px;
 }
 
 footer{
-    /*background-color: teal;*/
     text-align: center;
     height: 50px;    
-}
-
-.butterfly{
-    position: absolute;
-    width: 60px;
-    top: 90vh;
-    left: 90vw;
-    filter: brightness(10%);
-    animation: voar 7s infinite;
-}
-
-@keyframes voar {
-    0% {
-        transform: translate(0,0);
-    }
-    100%{
-        transform: translate(-90vw, -90vh);
-    }
 }
