@@ -66,22 +66,36 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 5 30vw;
+    user-select: none;
 }
 
 main h1{
-    font-size: 90px;
+    font-size: 120px;
     font-family: Helvetica;
     color: #00000000;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: rgb(224, 224, 224);
     margin-bottom: 20px;
+    /*position: relative;*/
 }
+
+/*main h1::after{
+    content: "Curupira";
+    color: #00000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(10, 10, 10, 0.897);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: -1;
+}
+*/
 
 .textos{
     display: flex;
     flex-direction: row;
     max-width: 500px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 }
 
 main p{
