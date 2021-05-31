@@ -23,15 +23,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5vw; /*0 vale para cima e para baixo e o 10vw vale para direita e esquerda*/
+    padding: 0vh 5vw; /*0 vale para cima e para baixo e o 10vw vale para direita e esquerda*/
 }
 
 .logo img{
     width: 120px;
+    user-select: none;
 }
 
 .links ul{
-    display: flex;
     gap: 20px; 
     list-style-type: none; /* Tirar as bolinhas dos tópicos */
 }
@@ -39,7 +39,6 @@ header{
 .links a{
     text-decoration: none; /* Tira o sublinhado e os efeitos de mudar a cor depois de clicar */
     color: white;
-    font-size: 20px;
     user-select: none; /* Fazer com que o usuário não consiga selecionar os links */
     transition: all .5s;
 }
@@ -47,6 +46,23 @@ header{
 .links a:hover{
     color: gray;
 }
+
+.home{
+    font-size: 25px;
+}
+
+.lendas{
+    font-size: 25px;
+}
+
+.trailer{
+    font-size: 25px;
+}
+
+.sobre{
+    font-size: 25px;
+}
+
 
 main{
     padding: 20vh 10vh;
