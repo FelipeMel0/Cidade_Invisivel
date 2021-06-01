@@ -100,8 +100,8 @@ main a{
     transition: all .5s;
 }
 main a:hover{
-    border: solid 1px #D81F26;
-    background-color: black;
+    /*border: solid 1px #D81F26;*/
+    background-color: rgba(92, 3, 3, 0.897);
 }
 
 footer{
