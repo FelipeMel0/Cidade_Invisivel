@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/cidade-invisivel.jpg");
+    background-color: #000000c7;
+    background-blend-mode: darken;
+    background-size: cover; 
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+header{
+    background-color: #00000090;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 5vw; /*0 vale para cima e para baixo e o 10vw vale para direita e esquerda*/
+}
+.logo img{
+    width: 120px;
+}
+
+.home{
+    font-size: 25px;
+}
+
+.lendas{
+    font-size: 25px;
+}
+
+.trailer{
+    font-size: 25px;
+}
+
+.sobre{
+    font-size: 25px;
+}
+
+
+.links ul{
+    gap: 20px; 
+    list-style-type: none; /* Tirar as bolinhas dos tópicos */
+}
+
+.links a{
+    text-decoration: none; /* Tira o sublinhado e os efeitos de mudar a cor depois de clicar */
+    color: white;
+    user-select: none; /* Fazer com que o usuário não consiga selecionar os links */
+    transition: all .5s;
+}
+
+.links a:hover{
+    color: gray;
+}
+main{
+    padding: 20vh 10vh;
+    flex-grow: 6;    
+}
+main h1{
+    font-size: 60px;
+    font-family: Helvetica;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(224, 224, 224);
+    margin-bottom: 20px;
+    max-width: 700px;
+    /*position: relative;*/
+}
+main p{
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 800px;
+}
+footer{
+    text-align: center;
+    height: 50px;    
+}
