@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("img/Boto.jpg");
+    background-image: url("../img/Saci.jpg");
     background-color: #00000050;
     background-blend-mode: darken;
     background-size: cover; 
@@ -76,11 +76,11 @@ main{
 .lenda{
     transform: rotate(270deg);
     color: #D81F26;
-    height: 120px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5 30vw;
+    padding: 5 5vw;
     user-select: none;
 }
 
@@ -91,7 +91,6 @@ main h1{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(224, 224, 224);
     margin-bottom: 20px;
-    max-width: 800px;
     /*position: relative;*/
 }
 
@@ -130,7 +129,7 @@ main p{
     flex-direction: column;
     border-right: solid 3px #D81F26;
     margin-right: 35px;
-    width: 190px;
+    width: 200px;
     font-style: italic;
 }
 

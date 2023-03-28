@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("img/Corpo-Seco.jpg");
+    background-image: url("../img/Corpo-Seco.jpg");
     background-color: #00000050;
     background-blend-mode: darken;
     background-size: cover; 

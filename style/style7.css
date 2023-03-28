@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("img/Curupira.jpg");
+    background-image: url("../img/Tutu.jpg");
     background-color: #00000050;
     background-blend-mode: darken;
     background-size: cover; 
@@ -76,7 +76,7 @@ main{
 .lenda{
     transform: rotate(270deg);
     color: #D81F26;
-    height: 90px;
+    height: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;

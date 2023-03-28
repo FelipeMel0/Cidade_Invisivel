@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("img/Tutu.jpg");
+    background-image: url("../img/Iara.jpg");
     background-color: #00000050;
     background-blend-mode: darken;
     background-size: cover; 
@@ -76,11 +76,11 @@ main{
 .lenda{
     transform: rotate(270deg);
     color: #D81F26;
-    height: 140px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5 30vw;
+    padding: 5 5vw;
     user-select: none;
 }
 
